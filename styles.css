@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.box {
+    display: flex;
+    height: 60vh;
+    width: 40%;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-top: 20vh;
+    margin-left: 30%;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06);
+}
+
+.photo {
+    height: 60vh;
+    width: 50%;
+    border-radius: 0.5rem 0 0 0.5rem;    
+}
+
+.photo .image {
+    height: 60vh;
+    width: 100%;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.name {
+    background-color: white;
+    height: 60vh;
+    width: 100%;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.texts {
+    background-color: white;
+    padding-top: 4vh;
+    padding-left: 5%;
+
+}
+
+.texts .name {
+    background-color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    letter-spacing: 4px;
+    color: gray;
+}
+
+.title {
+    background-color: white;
+    height: 60vh;
+    width: 100%;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.texts .title {
+    background-color: white;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.texts .desc {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+
+.price {
+    display: flex;
+    background-color: white;
+    margin-top: 3vh;
+}
+
+.price .new-price {
+    background-color: white;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', sans-serif;
+    font-size: 32px;
+}
+
+.price .old-price {
+    background-color: white;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-left: 7%;
+    margin-top: 1.5vh;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.button {
+    display: flex;
+    height: 7vh;
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin-top: 5vh;
+    margin-left: 4%;
+    transition: 0.35s;
+}
+
+.cart {
+    background-color: hsl(158, 36%, 37%);
+    height: 7vh;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    transition: 0.35s;
+}
+
+.cart .cart-bg {
+    display: flex;
+    background-color: hsl(158, 36%, 37%);
+    padding-top: 2.35vh;
+    padding-left: 375%;
+    border-radius: 0.5rem;
+}
+
+.add-to-cart {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-left: 32.5%;
+    padding-top: 2.45vh;
+    font-size: 12px;
+}
+
+.button:hover {
+    cursor: pointer;
+    -webkit-filter: brightness(80%);
+}
